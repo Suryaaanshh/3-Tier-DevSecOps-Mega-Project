@@ -36,3 +36,4 @@ additionalScrapeConfigs:
     static_configs:
       - targets:
           - kube-state-metrics:8080
+ 
