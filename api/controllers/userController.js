@@ -1,6 +1,6 @@
 const db = require('../models/db');
 const bcrypt = require('bcryptjs');
-
+ 
 // GET all users
 exports.getAllUsers = (req, res) => {
   db.query('SELECT id, name, email FROM users', (err, results) => {
