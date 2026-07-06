@@ -43,7 +43,7 @@ additionalScrapeConfigs:
           - kube-state-metrics:8080
 
 
-
+ 
 # Deploy
 helm upgrade --install monitoring prometheus-community/kube-prometheus-stack -f values.yaml -n monitoring --create-namespace
 # Patch services to LoadBalancer for External Access
